@@ -7,7 +7,7 @@
     "colors": {
         "editor.background": "#1B1B1B",
         "editor.foreground": "#00BCD4",
-        "editor.lineHighlightBackground": "#313131"
+        "editor.lineHighlightBackground": "#383838"
     },
     "tokenColors": [
         {
@@ -17,10 +17,9 @@
                 "punctuation.definition.comment.json"
             ],
             "settings": {
-                "foreground": "#81C784",
+                "foreground": "#999999",
                 "fontStyle": "italic"
             }
         }
     ]
-
 }
