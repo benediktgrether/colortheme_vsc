@@ -1,11 +1,20 @@
 {
-  "name": "mycolortheme",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "theme-LIS-vscode",
+  "displayName": "Monokai Pro",
+  "description": "Beautiful functionality for professional developers, from the author of the original Monokai color scheme.",
+  "publisher": "Benedikt Grether",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.18.1"
   },
-  "author": "",
-  "license": "ISC"
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [{
+      "label": "LIS-Theme",
+      "uiTheme": "vs-dark",
+      "path": "./themes/lis_theme.json"
+    }]
+  }
 }
