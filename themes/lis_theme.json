@@ -17,8 +17,7 @@
                 "punctuation.definition.comment.json"
             ],
             "settings": {
-                "foreground": "#999999",
-                "fontStyle": "italic"
+                "foreground": "#999999"
             }
         }
     ]
