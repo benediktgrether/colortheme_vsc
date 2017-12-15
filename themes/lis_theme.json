@@ -5,8 +5,9 @@
     "name": "lis_theme",
     "type": "dark",
     "colors": {
-        "editor.background": "#1B1B1B",
-        "editor.foreground": "#00BCD4",
+        "editor.background": "#303034",
+        // "editor.foreground": "#00BCD4",
+        "editor.foreground": "#DCDCDF",
         "editor.lineHighlightBackground": "#383838"
     },
     "tokenColors": [
@@ -17,7 +18,66 @@
                 "punctuation.definition.comment.json"
             ],
             "settings": {
-                "foreground": "#999999"
+                "foreground": "#6EDD7F"
+            }
+        },
+        {
+            "name": "tags",
+            "scope": [
+                "entity.name.tag.structure.any.html", "punctuation.definition.tag.html",
+                "entity.name.tag.inline.any.html",
+                "entity.name.tag.other.html"
+            ],
+            "settings":{
+                "foreground": "#48A3F9"
+            }
+        },
+        {
+            "name":"Tag Beginn End html",
+            "scope": [
+                "punctuation.definition.tag.begin.html",
+                "punctuation.definition.tag.end.html",
+                "meta.tag.inline.any.html",
+                "string.quoted.double.html",
+                "punctuation.definition.tag.html"
+            ],
+            "settings":{
+                "foreground": "#B1B1B3"
+            }
+        },
+        {
+            "name": "div",
+            "scope": ["entity.name.tag.block.any.html"],
+            "settings":{
+                "foreground": "#E185EC"
+            }
+        },
+        {
+            "name": "id",
+            "scope": ["entity.other.attribute-name.id.html"],
+            "settings":{
+                "foreground": "#CD99CA"
+            }
+        },
+        {
+            "name": "class name",
+            "scope":["entity.other.attribute-name.html"],
+            "settings": {
+                "foreground": "#FF88E7"
+            }
+        },
+        {
+            "name": "tag inline",
+            "scope": ["string.quoted.double.html"],
+            "settings": {
+                "foreground": "#C199FF"
+            }
+        },
+        {
+            "name": "script-html",
+            "scope": ["entity.name.tag.script.html"],
+            "settings": {
+                "foreground": "#B3BDC6"
             }
         }
     ]
