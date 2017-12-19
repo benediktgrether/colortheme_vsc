@@ -119,6 +119,15 @@
             }
         },
         {
+            "name":"variable less",
+            "scope":[
+                "variable.other.less"
+            ],
+            "settings":{
+                "foreground": "#dbd700"
+            }
+        },
+        {
             "name": "support type json",
             "scope": ["support.type.property-name.json"],
             "settings":{
