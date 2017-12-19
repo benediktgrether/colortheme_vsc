@@ -114,7 +114,8 @@
             "name": "media query",
             "scope": ["keyword.control.at-rule.media.css"],
             "settings":{
-                "foreground": "#28d67f"
+                // "foreground": "#28d67f"
+                "foreground": "#fff83d"
             }
         },
         {
