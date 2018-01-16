@@ -121,10 +121,19 @@
         {
             "name":"variable less",
             "scope":[
-                "variable.other.less"
+                "variable.other.less","keyword.control.at-rule.import.less"
             ],
             "settings":{
-                "foreground": "#dbd700"
+                "foreground": "#48A3F9"
+            }
+        },
+        {
+            "name": "import less",
+            "scope":[
+                "string.quoted.single.css"
+            ],
+            "settings":{
+                "foreground": "#7CC6F9"
             }
         },
         {
