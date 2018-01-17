@@ -114,7 +114,7 @@
             "name": "media query",
             "scope": ["keyword.control.at-rule.media.css"],
             "settings":{
-                "foreground": "#fff83d"
+                "foreground": "#89ff79"
             }
         },
         {
@@ -285,6 +285,24 @@
             ],
             "settings":{
                 "foreground": "#7cf995"
+            }
+        },
+        {
+            "name": "string quoted double php",
+            "scope":[
+                "string.quoted.double.php"
+            ],
+            "settings":{
+                "foreground": "#ae7aff"
+            }
+        },
+        {
+            "name": "punctuation definition string begin php",
+            "scope":[
+                "punctuation.definition.string.begin.php", "constant.character.escape.php", "punctuation.definition.string.end.php"
+            ],
+            "settings":{
+                "foreground": "#dbd700"
             }
         }
     ]
