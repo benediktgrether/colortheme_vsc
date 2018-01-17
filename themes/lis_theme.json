@@ -57,9 +57,6 @@
             "scope": ["entity.other.attribute-name.id.html",
             "entity.other.attribute-name.id"],
             "settings":{
-                /*"foreground": "#CD99CA"*/
-                // "foreground": "#35b29d"
-                // "foreground": "#df78ef"
                 "foreground": "#b4ffff"
             }
         },
@@ -76,7 +73,6 @@
             "name": "tag inline",
             "scope": ["string.quoted.double.html"],
             "settings": {
-                /* "foreground": "#C199FF"*/
                 "foreground": "#ae7aff"
             }
         },
