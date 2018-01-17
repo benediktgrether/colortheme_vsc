@@ -114,7 +114,6 @@
             "name": "media query",
             "scope": ["keyword.control.at-rule.media.css"],
             "settings":{
-                // "foreground": "#28d67f"
                 "foreground": "#fff83d"
             }
         },
@@ -237,10 +236,55 @@
         {
             "name": "punctuation.section.embedded.begin.php",
             "scope":[
-                "punctuation.section.embedded.begin.php"
+                "punctuation.section.embedded.begin.php", "punctuation.section.embedded.end.php"
             ],
             "settings":{
                 "foreground": "#dbd700"
+            }
+        },
+        {
+            "name": "php variable other property",
+            "scope":[
+                "variable.other.property.php", "punctuation.definition.variable.php" ,"variable.other.global.php", "variable.other.global.safer.php"
+            ],
+            "settings":{
+                "foreground": "#99f97c"
+            }
+        },
+        {
+            "name": "variable php",
+            "scope":[
+                "variable.other.php", "keyword.control.import.include.php"
+            ],
+            "settings":{
+                "foreground": "#7cf2f9"
+            }
+        },
+        {
+            "name": "string quoted php",
+            "scope":[
+                "string.quoted.single.php"
+            ],
+            "settings":{
+                "foreground": "#48A3F9"
+            }
+        },
+        {
+            "name": "if php",
+            "scope":[
+                "keyword.control.if.php", "keyword.control.else.php", "keyword.control.endif.php"
+            ],
+            "settings":{
+                "foreground": "#d63b3b"
+            }
+        },
+        {
+            "name": "php constructor",
+            "scope":[
+                "support.function.construct.php", "support.function.construct.output.php"
+            ],
+            "settings":{
+                "foreground": "#7cf995"
             }
         }
     ]
