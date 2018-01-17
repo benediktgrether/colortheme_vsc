@@ -275,7 +275,7 @@
                 "keyword.control.if.php", "keyword.control.else.php", "keyword.control.endif.php"
             ],
             "settings":{
-                "foreground": "#d63b3b"
+                "foreground": "#fc7676"
             }
         },
         {
