@@ -1,12 +1,8 @@
-/* TEST */
-
-
 {
     "name": "lis_theme",
     "type": "dark",
     "colors": {
         "editor.background": "#303034",
-        // "editor.foreground": "#00BCD4",
         "editor.foreground": "#DCDCDF",
         "editor.lineHighlightBackground": "#383838"
     },
@@ -308,6 +304,24 @@
             ],
             "settings":{
                 "foreground": "#dbd700"
+            }
+        },
+        {
+            "name": "punctuation section tag twig",
+            "scope":[
+                "punctuation.section.tag.twig"
+            ],
+            "settings":{
+                "foreground": "#79f1ff"
+            }
+        },
+        {
+            "name": "meta tag template block twig",
+            "scope":[
+                "meta.tag.template.block.twig"
+            ],
+            "settings":{
+                "foreground": "#a1ff79"
             }
         }
     ]
