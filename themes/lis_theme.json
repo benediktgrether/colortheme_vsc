@@ -351,6 +351,34 @@
             "settings":{
                 "foreground": "#F682E4"
             }
+        },
+        {
+            "name": "entity name tag yaml",
+            "scope":[ 
+                "entity.name.tag.yaml"        
+            ],
+            "settings":{
+                "foreground": "#48A3F9"
+            }
+        },
+        {
+            "name": "string unquoted plain out yaml",
+            "scope":[
+                "string.unquoted.plain.out.yaml"
+            ],
+            "settings":{
+                "foreground": "#ae7aff"
+            }
+        },
+        {
+            "name":"string quoted single yaml",
+            "scope":[
+                "string.quoted.single.yaml","string.quoted.double.yaml", "constant.language.boolean.yaml","constant.numeric.integer.yaml"
+            ],
+            "settings":{
+                // "foreground": "#79f1ff"
+                "foreground": "#de7aff"
+            }
         }
     ]
 }
