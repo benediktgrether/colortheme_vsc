@@ -316,12 +316,40 @@
             }
         },
         {
-            "name": "meta tag template block twig",
+            "name": "variable other twig",
             "scope":[
-                "meta.tag.template.block.twig"
+                "variable.other.twig"
             ],
             "settings":{
-                "foreground": "#a1ff79"
+                // "foreground": "#82a9f6",
+                "foreground":"#82d1f6"
+            }
+        },
+        {
+            "name":"keyword control twig",
+            "scope":[
+                "keyword.control.twig"
+            ],
+            "settings":{
+                "foreground": "#F682E4"
+            }
+        },
+        {
+            "name": "string quoted single twig",
+            "scope":[
+                "string.quoted.single.twig"
+            ],
+            "settings":{
+                "foreground": "#9D88D5"
+            }
+        },
+        {
+            "name": "keyword operator comparison twig",
+            "scope":[
+                "keyword.operator.comparison.twig"
+            ],
+            "settings":{
+                "foreground": "#F682E4"
             }
         }
     ]
